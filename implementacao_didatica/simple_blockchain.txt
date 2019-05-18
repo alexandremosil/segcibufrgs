@@ -1,61 +1,125 @@
-import cryptography
-from cryptography.hazmat.backends import default_backend
-from cryptography.hazmat.primitives.asymmetric import rsa
-
-from hashlib import sha256
-from time import time, ctime
-from pprint import pprint, PrettyPrinter
-
-from core import *
-
-def main():
-
-    # Impressão mais amigável
-    pp = PrettyPrinter()
-
-    # Obtém os eleitores aptos
-    eleitores = get_eleitores()
-
-    # Acrescenta as chaves públicas e privadas à lista de eleitores (simula carteira)
-    eleitores = gera_carteiras(eleitores)
-
-    # Gera 4 listas de transações com 5 votos cada (4 blocos na cadeia)
-    transactions_1 = []
-    for v in range(0,5):
-        transactions_1.append({'id':eleitores[v]['id'],'voto':eleitores[v]['voto']})
-
-    transactions_2 = []
-    for v in range(5,10):
-        transactions_2.append({'id':eleitores[v]['id'],'voto':eleitores[v]['voto']})
-
-    transactions_3 = []
-    for v in range(10,15):
-        transactions_3.append({'id':eleitores[v]['id'],'voto':eleitores[v]['voto']})
-
-    transactions_4 = []
-    for v in range(15,20):
-        transactions_4.append({'id':eleitores[v]['id'],'voto':eleitores[v]['voto']})
-
-    # Cria a cadeia
-    blockchain = Blockchain('Blockchain teste votação')
-    
-    # Acrescenta as transações à cadeia
-    blockchain.addBlock(transactions_1)
-    blockchain.addBlock(transactions_2)
-    blockchain.addBlock(transactions_3)
-    blockchain.addBlock(transactions_4)
-
-    # Imprime a cadeia com as transações
-    blockchain.printBlockchain()
-
-    # Valida a cadeia pelos hashs dos blocos
-    blockchain.validateChain()
-
-    # Altera uma transação diretamente na cadeia, imprime e tenta validar
-    blockchain.chain[2].transactions[1] = {'ID':'666','VOTO':'666'}
-    blockchain.printBlockchain()
-    blockchain.validateChain()
-
-# entry point
-if __name__ == "__main__":
-    main()
+===========================================================================================
+[{'metadata': 'Blockchain teste vota��o'},
+ {'block_type': 'genesis',
+  'genesis 1:1': 'No princ�pio Deus criou os c�us e a terra.'}]
+===========================================================================================
+===========================================================================================
+Hash...........: 76f8eae730648e4d26f3b62d6d600d0be4091abe0910481cd8b0f41140364a22
+Previous hash..: 0
+Proof of Work..: 
+Timestamp....... 2019-05-18 00:34:20.280432
+Transactions ------------------------------------------------------------------------------
+[]
+===========================================================================================
+===========================================================================================
+Hash...........: a38ac5392fc0fcdfac3944e53acae26334520a4d5906642f8ca606d5641a97d6
+Previous hash..: 76f8eae730648e4d26f3b62d6d600d0be4091abe0910481cd8b0f41140364a22
+Proof of Work..: 00fa9067473748269be9389a2207847c37bfb0944f93e2b65a8d445d4c290151
+Timestamp....... 2019-05-18 00:34:20.280432
+Transactions ------------------------------------------------------------------------------
+[{'id': '001', 'voto': '1'},
+ {'id': '002', 'voto': '1'},
+ {'id': '003', 'voto': '1'},
+ {'id': '004', 'voto': '3'},
+ {'id': '005', 'voto': '1'}]
+===========================================================================================
+===========================================================================================
+Hash...........: cf5fb7f5d38c542c4fc1759491e056747066cb33a86110b7a17d5b3d1b2b57ce
+Previous hash..: a38ac5392fc0fcdfac3944e53acae26334520a4d5906642f8ca606d5641a97d6
+Proof of Work..: 00aad2425d33bc6d65ec529fe3e6beb0ef1e489aedec76fb58ebce8e285c7922
+Timestamp....... 2019-05-18 00:34:20.281430
+Transactions ------------------------------------------------------------------------------
+[{'id': '006', 'voto': '1'},
+ {'id': '007', 'voto': '1'},
+ {'id': '008', 'voto': '4'},
+ {'id': '009', 'voto': '1'},
+ {'id': '010', 'voto': '3'}]
+===========================================================================================
+===========================================================================================
+Hash...........: 105d0e9eaad20593c5980bebb864e848712ac4a7e1f80c5937b63ce1d9bd9c8d
+Previous hash..: cf5fb7f5d38c542c4fc1759491e056747066cb33a86110b7a17d5b3d1b2b57ce
+Proof of Work..: 00b67836a507875106bb4135f60af49d05ce8fb194db85be29eee1c8565b6729
+Timestamp....... 2019-05-18 00:34:20.284422
+Transactions ------------------------------------------------------------------------------
+[{'id': '011', 'voto': '1'},
+ {'id': '012', 'voto': '2'},
+ {'id': '013', 'voto': '1'},
+ {'id': '014', 'voto': '1'},
+ {'id': '015', 'voto': '3'}]
+===========================================================================================
+===========================================================================================
+Hash...........: 5463dfabc3b4fc0859dbfcfb8fc6a6f2f4ad7b58ec35345f95af41cd018df911
+Previous hash..: 105d0e9eaad20593c5980bebb864e848712ac4a7e1f80c5937b63ce1d9bd9c8d
+Proof of Work..: 00d17d6a5343e06689535b2a1464cbc49fa6837a960c648167358458bd83e05a
+Timestamp....... 2019-05-18 00:34:20.285422
+Transactions ------------------------------------------------------------------------------
+[{'id': '016', 'voto': '1'},
+ {'id': '017', 'voto': '1'},
+ {'id': '018', 'voto': '4'},
+ {'id': '019', 'voto': '3'},
+ {'id': '020', 'voto': '2'}]
+===========================================================================================
+A cadeia foi validada com sucesso!
+===========================================================================================
+[{'metadata': 'Blockchain teste vota��o'},
+ {'block_type': 'genesis',
+  'genesis 1:1': 'No princ�pio Deus criou os c�us e a terra.'}]
+===========================================================================================
+===========================================================================================
+Hash...........: 76f8eae730648e4d26f3b62d6d600d0be4091abe0910481cd8b0f41140364a22
+Previous hash..: 0
+Proof of Work..: 
+Timestamp....... 2019-05-18 00:34:20.280432
+Transactions ------------------------------------------------------------------------------
+[]
+===========================================================================================
+===========================================================================================
+Hash...........: a38ac5392fc0fcdfac3944e53acae26334520a4d5906642f8ca606d5641a97d6
+Previous hash..: 76f8eae730648e4d26f3b62d6d600d0be4091abe0910481cd8b0f41140364a22
+Proof of Work..: 00fa9067473748269be9389a2207847c37bfb0944f93e2b65a8d445d4c290151
+Timestamp....... 2019-05-18 00:34:20.280432
+Transactions ------------------------------------------------------------------------------
+[{'id': '001', 'voto': '1'},
+ {'id': '002', 'voto': '1'},
+ {'id': '003', 'voto': '1'},
+ {'id': '004', 'voto': '3'},
+ {'id': '005', 'voto': '1'}]
+===========================================================================================
+===========================================================================================
+Hash...........: cf5fb7f5d38c542c4fc1759491e056747066cb33a86110b7a17d5b3d1b2b57ce
+Previous hash..: a38ac5392fc0fcdfac3944e53acae26334520a4d5906642f8ca606d5641a97d6
+Proof of Work..: 00aad2425d33bc6d65ec529fe3e6beb0ef1e489aedec76fb58ebce8e285c7922
+Timestamp....... 2019-05-18 00:34:20.281430
+Transactions ------------------------------------------------------------------------------
+[{'id': '006', 'voto': '1'},
+ {'ID': '666', 'VOTO': '666'},
+ {'id': '008', 'voto': '4'},
+ {'id': '009', 'voto': '1'},
+ {'id': '010', 'voto': '3'}]
+===========================================================================================
+===========================================================================================
+Hash...........: 105d0e9eaad20593c5980bebb864e848712ac4a7e1f80c5937b63ce1d9bd9c8d
+Previous hash..: cf5fb7f5d38c542c4fc1759491e056747066cb33a86110b7a17d5b3d1b2b57ce
+Proof of Work..: 00b67836a507875106bb4135f60af49d05ce8fb194db85be29eee1c8565b6729
+Timestamp....... 2019-05-18 00:34:20.284422
+Transactions ------------------------------------------------------------------------------
+[{'id': '011', 'voto': '1'},
+ {'id': '012', 'voto': '2'},
+ {'id': '013', 'voto': '1'},
+ {'id': '014', 'voto': '1'},
+ {'id': '015', 'voto': '3'}]
+===========================================================================================
+===========================================================================================
+Hash...........: 5463dfabc3b4fc0859dbfcfb8fc6a6f2f4ad7b58ec35345f95af41cd018df911
+Previous hash..: 105d0e9eaad20593c5980bebb864e848712ac4a7e1f80c5937b63ce1d9bd9c8d
+Proof of Work..: 00d17d6a5343e06689535b2a1464cbc49fa6837a960c648167358458bd83e05a
+Timestamp....... 2019-05-18 00:34:20.285422
+Transactions ------------------------------------------------------------------------------
+[{'id': '016', 'voto': '1'},
+ {'id': '017', 'voto': '1'},
+ {'id': '018', 'voto': '4'},
+ {'id': '019', 'voto': '3'},
+ {'id': '020', 'voto': '2'}]
+===========================================================================================
+Erro no hash do bloco atual : cf5fb7f5d38c542c4fc1759491e056747066cb33a86110b7a17d5b3d1b2b57ce
+O hash atual: e6d804624bba74ce8c4d86e7aa9c09f46ce08707b77bd25df035484f86889e2e

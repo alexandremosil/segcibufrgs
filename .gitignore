@@ -9,7 +9,17 @@ venv/
 #!.vscode/extensions.json
 
 # Byte-compiled
-*.py
+# *.py
 *.py[cod]
 *$py.class
 __pycache__/
+
+# Reference
+
+# git push -u origin master
+
+# git init
+# git add .
+# git commit -m "Description"
+# git remote add origin https://github.com/alexandremosil/segcibufrgs.git
+# git push -u origin master

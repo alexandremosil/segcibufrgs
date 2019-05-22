@@ -1,0 +1,705 @@
+[
+    {
+        "asset": {
+            "data": {
+                "id": "001",
+                "nome": "Paulo",
+                "voto": "1"
+            }
+        },
+        "id": "8ecaf5626efe5ba6082d5521ae0e77cf475ed6cefd49144daaa9ea9ff9d0e7b8",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDckTU-l7OvDDU6avUd2r3jletp4oObWgqi_LPR9YWwgPzm6jDkfjr4YA85xfe_YrkBaHVkqZTrza6semlduVAA",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "002",
+                "nome": "Maria",
+                "voto": "1"
+            }
+        },
+        "id": "12ab1bad441a600387b41ba970d345ab0014878507907a5d44cc69167c9e0f5a",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUCguxBGHpYKwj4zDs9R-HjOzry1H6sDoSOX3Nv8kW3vjQWhR-ssqu9BSMqIQRCFQuYmFv76oEIr7_yYt-5_8SwM",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "003",
+                "nome": "Ana",
+                "voto": "1"
+            }
+        },
+        "id": "61c794b3706749b461b4df8f2c5c28de20728f699a4ea0bd63bbc1d580c9aa65",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDJLMnWNCoKI7flLtPnlQYzDMlCZrh1q2uIFDLuL3Eb9FDnlYiweQKFNyqoSCWB8MsAU1SJ68GLDt9PTNiveBgM",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "004",
+                "nome": "Julia",
+                "voto": "3"
+            }
+        },
+        "id": "091c546e00cc1cba161157b710a30ab6bf5092997a059f28efd90e3dc2ef7251",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDLDgYeOHxfVSBwRgI7M2DBa2tMmNxi8g62M3R71gZ-pFTah6p8Um33e7c40NkwNW3ZVtvoOlq5_VX8YV98hFAD",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "005",
+                "nome": "Esther",
+                "voto": "1"
+            }
+        },
+        "id": "274f2b7c1846777c67e6ec729e1a121cbdbdfa2c93da829466a5026a9ccae29c",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUA-rSLySyXvzAdvxyCN5RaIGOwbcKHxQOil2WCEg7a-AA7f8xVRyoBsMBjoYeKKAX4YuOlX8qy5bKWNMEGESesL",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "006",
+                "nome": "Jonas",
+                "voto": "1"
+            }
+        },
+        "id": "07a6e65814063c0a45221b50d4cdb4d9f14b020cab3ab2f55161d529288e2d0d",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUBlXdz4DuLKuWaxTeLIDblYPKJ99vnxcyWY_Bw1eWjN3hxWsCAZg1ydydJH3lXyFWgSI3AFedc5u-Uqs6G1XcoL",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "007",
+                "nome": "Patricia",
+                "voto": "1"
+            }
+        },
+        "id": "7ff26b2b94769b14228efbb6f5174c6afffb715ec49a547aa3ad2df2c992ef26",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUBGlFBiO0XxulrFW-dx5N0mDTRXzJhijrTQNFK6Kkx6JTEufXB5PoNmXjaIH3V6AAMsx0HCtqsyW6uy0lmzV8cL",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "008",
+                "nome": "Alexandre",
+                "voto": "4"
+            }
+        },
+        "id": "08e04a23ea20c0e2212cdcf91c2b71731d4fc36eef3b25f358f7bfcd35f528e9",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDZphNN8gm4e77IxnS3qB3FEMhzFk54R8EuFa3ryLSFqDDIXd-RHMWLvxYR6VLzs16E1VYKgPs4rngxZ7L9PA4L",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "009",
+                "nome": "Mario",
+                "voto": "1"
+            }
+        },
+        "id": "c825cc9c1cf7e17817919c1ae3c0d5d52b00f3b07fe073fd5b9d3212f0f49639",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDgqZzVBJ_DuKaO80KV92ub7aAfl1JjH_nQc2mp7A11qAAHHq5PP9zmd3xvO3Y2FUblV99V8-VxNYws8O_0GoYC",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "010",
+                "nome": "Carlos",
+                "voto": "3"
+            }
+        },
+        "id": "16b47c9c02d1826d0da51b4e153a1255a10f48b73d32e024a7f1463c2ad2e928",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDtq_r_evy1jO9pUcP83AFRyuTTbiloXXHtUB2qn625_aEH_hRplktls93q6G6E6BuO0nmd5p0Yf6pNJww67WsJ",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "011",
+                "nome": "Pedro",
+                "voto": "1"
+            }
+        },
+        "id": "3eca5ad474ee907b669e1d55215555b20d9a1a5ea0ae2d7088e130b105132104",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUBXyRdBQkUvlBsPTWP7WumNhedab2BUkO2pyZCBMYKSZOvbSVsO_cWGPlY0RogV-LStLG4Ehhf0XchfQR5ThCgF",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "012",
+                "nome": "Pietra",
+                "voto": "2"
+            }
+        },
+        "id": "9c31602b6e3dd133916638c3abcadc98d6b39d6e77d71bcb21d39490649faca5",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUCeHntV85fKGFWUcOV-Vuw3tKSs0EH6lV3n-A1BdwrtmItPNKmiAWRtcO0qQPk_78UR4XQpD1S6EdfK91DlXWkC",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "013",
+                "nome": "Paula",
+                "voto": "1"
+            }
+        },
+        "id": "f6d3411b4be8aa3a21db37cc40b34ebe1bac286beab818c6dc0f0716be732e8c",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUB7Vx4vHbPkWXo3mFtPI4gi1kqtWfktdB3smU0Jd0XX_YYQoGAvIN_oqOAvZi4OjElTqvfjqPAR_jOsgcv4cvME",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "014",
+                "nome": "Adriana",
+                "voto": "1"
+            }
+        },
+        "id": "42adaf188bb09ce8be131464de4e520f764ffb4ee0dcc6d909004bcd11491f40",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUBNoG1n4qs9QiEYmg-MTJT-p-N9qRksJRo1eWNKtuNQeyGA22aXsWbyHMqWdDmI2qC4ZFeteTicB416kgQHLE4J",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "015",
+                "nome": "Debora",
+                "voto": "3"
+            }
+        },
+        "id": "2f4acc53159a1ada8895d90065c477683910014b49162ed0efcc9b493f3c6ddf",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUDYPACMqM1EBO3OcqimG-8PcSi4stiFO8A1NG7clUltDUHYBqTfM-N8Fe9hAyXAjYSw48scwVlTwHPMJHkJ7A8O",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "016",
+                "nome": "Regina",
+                "voto": "1"
+            }
+        },
+        "id": "8e1158fcbb375e64d8464d180ace98a5be17340a3dd847cb7cd3f2ecdfa7cd45",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUAreKQZilOgxEF4W-mP9NpCtbybBbYiLxgLyKQbRGZM8AXdFFuCDewWKVqZu9t8gjJyB9Hl4uxLLAIrEycONUUB",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "017",
+                "nome": "Francisco",
+                "voto": "1"
+            }
+        },
+        "id": "f0727b737f593fdb31840734fa13aedb14bb7a40da3a1676ad1ded6aec9a905b",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUAK1sC1OstYzaa8V7WubVXdTefjnWaIc8eEpmEjTLCFWEzgxMHrgyE_MSlm_5iBr2WQwZSRZZHLijUytsZ-vK4O",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "018",
+                "nome": "Lianna",
+                "voto": "4"
+            }
+        },
+        "id": "da74cdb9b2e120c8f0c50d604b4dd933131b8ade557e873ef7aed6efb55d251f",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUCMLwv_fEAhLNtbSeiqKW3-v_YVynK_U2wSMa5VkOtoUXpYV4JxnKmi7wOgjTBY0rN0pzmpkPEAp_1BI9s9IaIE",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    },
+    {
+        "asset": {
+            "data": {
+                "id": "019",
+                "nome": "Miguel",
+                "voto": "3"
+            }
+        },
+        "id": "a61d208a174846f12cea0a1afe04b7f63e968a1701eaaf2f4b9691a477586195",
+        "inputs": [
+            {
+                "fulfillment": "pGSAIIRURe2En5yYZxjoYn4BDSlN8n9SWOXsXw7yQljJ1I-mgUCGBU40oGFIBZsbi_hbF4mPsgCwHZ3CI7JuMrhONojHf7do8onU4X3ACoInpQEnwauPAXtjv5iZOMXruBX3lg0H",
+                "fulfills": null,
+                "owners_before": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "metadata": null,
+        "operation": "CREATE",
+        "outputs": [
+            {
+                "amount": "1",
+                "condition": {
+                    "details": {
+                        "public_key": "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR",
+                        "type": "ed25519-sha-256"
+                    },
+                    "uri": "ni:///sha-256;yyd-R6B83PI9EkJspP328dAQRCUDXMi5UEQJeAqLk6U?fpt=ed25519-sha-256&cost=131072"
+                },
+                "public_keys": [
+                    "9uZMAhUUYs9u18qw6AqZyxJppfWR5BghgBRfZtGXDmCR"
+                ]
+            }
+        ],
+        "version": "2.0"
+    }
+]

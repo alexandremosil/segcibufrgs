@@ -29,6 +29,14 @@ def get_eleitores():
     return eleitores
 
 def main():
+    # Conectar ao nó local geth
+
+    # Publicar o smart contract (votacao.sol)
+
+    # Enviar os votos
+
+    # Imprimir o retorno voto por voto em json
+
     pass
 
 # entry point

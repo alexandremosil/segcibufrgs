@@ -8,6 +8,10 @@
 
     - pip install web3
 
+- [brownie]() : (https://github.com/HyperLink-Technology/brownie) : Framework para teste de smart contracts.
+
+    - pip install eth-brownie
+
 - [Ethereum](https://geth.ethereum.org/) : Implementação oficial do protocolo Ethereum
 
     - Download e execução do arquivo de instalação (No Windows: geth-windows-amd64-1.8.27-4bcc0a37)
@@ -15,10 +19,12 @@
 ### Observações
 
 O script grava no nó Ethereum local uma lista de 20 votos, retornando o 
-json deste processamento voto por voto.
+json deste processamento voto por voto. 
 
-O arquivo poc_ethereum.py contém o script.
+O arquivo poc_ethereum.py contém o script de teste (incompleto).
 
-O arquivo votacao.sol contém o smart contract para a votação.
+O arquivo /contracts/votacao.sol contém o smart contract para a votação.
 
-O arquivo poc_ethereumn.json contém um exemplo da saída.
+A pasta /bin contém o contrato compilado em binário e formato abi.
+
+O arquivo poc_ethereumn.json contém um exemplo da saída (incompleto).

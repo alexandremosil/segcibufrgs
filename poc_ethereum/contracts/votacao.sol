@@ -1,7 +1,7 @@
 pragma solidity >=0.4.0;
 
 contract Votacao {
-    // Votos recebidos
+    // Votos recebidos por opção
     mapping (bytes32 => uint256) public votosRecebidos;
 
     // Opções da cédula
